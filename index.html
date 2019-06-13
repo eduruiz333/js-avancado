@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analizador de números</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="text-white bg-info">
+
+    <div class="container py-2">
+
+        <header class="text-center py-2">
+            <h1 class="hello">Analizador de números</h1>
+        </header>
+
+        <section class="rounded bg-white py-3">
+            <div class="row">
+                <div class="col text-center text-dark">
+                    <div class="mb-3">
+                        
+                            <div class="row form-row">
+                                <div class="col form-group form-inline justify-content-center">
+                                    <label class="form-control mr-3" for="txt_n">Número de 1 a 100</label>
+                                    <input class="form-control entry txt-n" type="number" name="txt_n" id="txt_n">
+                                    <button type="button form-control" class="btn btn-primary ml-3 btn_action">Adicionar</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col content-result mb-3">
+                                    <h5 class="msg text-primary text-center px-5"></h5>
+                                </div>
+                            </div>
+                            <div class="row form-row">
+                                <div class="col form-group form justify-content-center">
+                                    <select style="min-width: 30%; text-align: center;" name="lista" id="lista" size="10"> </select>
+                                </div>
+                            </div>
+                            <div class="row form-row">
+                                <div class="col form-group form justify-content-center">
+                                    <button type="button form-control" class="btn btn-outline-warning ml-3 btn_reset">Recomeçar</button>
+                                    <button type="button form-control" class="btn btn-success ml-3 btn_action_fim">Finalizar</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col result mb-3"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-2">
+            <small>Vamo que vamo que o som não pode parar!</small>
+        </footer>
+
+    </div>
+
+<script src="js/exercicio-final.js"></script>
+</body>
+</html>

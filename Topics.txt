@@ -1,0 +1,29 @@
+Variáveis - OK
+Operadores - OK
+Laços - OK
+Array - OK
+Hash - OK
+Prog funcional
+Prog orientada objetos
+Classes
+Instâncias
+Construtores
+Herança
+Polimorfismo
+Prog assíncrona
+Strings
+jQuery
+Ajax
+Conectar a API
+MVC
+HTTP
+Cookies
+Arquitetura
+TDD
+CRUD
+REST
+BDD
+Grunt
+Gulp
+Cache
+Integração
