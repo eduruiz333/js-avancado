@@ -1,3 +1,4 @@
+
 let hash = {
     nome: 'Eduardo',
     idade: 47,
