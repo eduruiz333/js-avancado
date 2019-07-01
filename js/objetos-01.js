@@ -1,5 +1,6 @@
 // SINTAXE ANTIGA //
-/* var Cliente = function () {
+
+var Cliente = function () {
     this.nome = '';
     this.telefone = '';
     this.cpf = '';
@@ -14,7 +15,7 @@ var jose = new Cliente ();
 jose.nome = 'José'
 jose.telefone = 11958849392
 jose.cpf = 11829182891
-jose.mostrar() */
+jose.mostrar()
 
 
 // SINTAXE NOVA //
